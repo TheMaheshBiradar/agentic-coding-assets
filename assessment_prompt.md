@@ -33,8 +33,8 @@ Please systematically explore the workspace and evaluate it against the **10-Poi
 - *Check:* Analyze the `src/test/` directory. Are there unit tests? Integration tests?
 - *Assumption to Surface:* If missing, state: "Assumption: Surgical changes cannot be verified locally. High risk of regression."
 
-#### 5. Explicit Coding Standards
-- *Check:* Search for `.editorconfig`, `.eslintrc`, `checkstyle.xml`, or `prettierrc`.
+#### 5. Explicit Coding Standards & IDE Configurations
+- *Check:* Search for universal formatters (`.editorconfig`, `prettierrc`), build-tool formatting plugins (Spotless, Checkstyle), or IDE-specific settings (`.vscode/settings.json`, `.idea/codeStyleSettings.xml`, Eclipse formatter XMLs).
 
 #### 6. Agent Instructions
 - *Check:* Does the repository contain an `AGENTS.md`, `CLAUDE.md`, or a `.agents/skills/` directory establishing behavioral contracts?

@@ -44,7 +44,7 @@ Please systematically explore the workspace and evaluate it against the **10-Poi
 - *Check:* Look for OpenAPI/Swagger specs, GraphQL schemas, or strict interface declarations (TypeScript/Java interfaces).
 
 #### 9. CI/CD Validation Gates
-- *Check:* Is there a `.github/workflows/` or equivalent pipeline that enforces tests passing on Pull Requests?
+- *Check:* Is there a CI/CD pipeline configuration (e.g., `.github/workflows/`, `.gitlab-ci.yml`, `Jenkinsfile`, `azure-pipelines.yml`) that enforces tests passing on Pull/Merge Requests?
 
 #### 10. Ownership & Governance
 - *Check:* Search for `CODEOWNERS` or a clear `CONTRIBUTING.md`.

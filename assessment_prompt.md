@@ -8,6 +8,8 @@
 
 **Task:** Perform a comprehensive static analysis of this repository to generate an "AI Readiness & Pattern Extraction" report. Do not modify any code; strictly read, extract patterns, and surface your assumptions explicitly.
 
+> **CRITICAL INSTRUCTION FOR MULTI-MODULE WORKSPACES:** If you detect a massive multi-module workspace (e.g., `<modules>` in a root `pom.xml` linking to `TestAutomation`, `Deploy`, etc.), **DO NOT** attempt to analyze everything yourself. You must use your subagent tools to spawn specialized analysis agents for each module. Have them report their individual scores, and then aggregate their findings into a Master Report.
+
 Please systematically explore the workspace and evaluate it against the **10-Point Agentic Maturity Framework** below. 
 
 ### The Golden Rule Check
